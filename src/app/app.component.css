@@ -1,0 +1,23 @@
+/* src/app/components/post-list/post-list.component.css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  cursor: pointer;
+  background-color: #f4f4f4;
+}
+
+input[type="text"] {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
