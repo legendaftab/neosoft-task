@@ -14,5 +14,14 @@ export class ApiService {
   getPosts(): Observable<any[]> {
     return this.http.get<any[]>(this.apiUrl);
   }
+  
+  getPostsa(): Observable<any[]> {
+    return this.http.get<any[]>(this.apiUrl);
+  }
+  getPostss(): Observable<any[]> {
+    return this.http.get<any[]>(this.apiUrl);
+  }
+  
+
 }
 
